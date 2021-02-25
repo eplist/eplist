@@ -1,0 +1,73 @@
+version: v1
+metameta:
+  name: aliyun-oss
+endpoints:
+  - region: cn-hangzhou
+    endpoint: oss-cn-hangzhou.aliyuncs.com
+
+  - region: cn-shanghai
+    endpoint: oss-cn-shanghai.aliyuncs.com
+
+  - region: cn-qingdao
+    endpoint: oss-cn-qingdao.aliyuncs.com
+
+  - region: cn-beijing
+    endpoint: oss-cn-beijing.aliyuncs.com
+
+  - region: cn-zhangjiakou
+    endpoint: oss-cn-zhangjiakou.aliyuncs.com
+
+  - region: cn-huhehaote
+    endpoint: oss-cn-huhehaote.aliyuncs.com
+
+  - region: cn-wulanchabu
+    endpoint: oss-cn-wulanchabu.aliyuncs.com
+    
+  - region: cn-shenzhen
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    
+  - region: cn-heyuan
+    endpoint: oss-cn-heyuan.aliyuncs.com
+    
+  - region: cn-guangzhou
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    
+  - region: cn-chengdu
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    
+  - region: cn-hongkong
+    endpoint: oss-cn-hongkong.aliyuncs.com
+    
+  - region: us-west-1
+    endpoint: oss-us-west-1.aliyuncs.com
+    
+  - region: us-east-1
+    endpoint: oss-us-east-1.aliyuncs.com
+    
+  - region: ap-southeast-1
+    endpoint: oss-ap-southeast-1.aliyuncs.com
+    
+  - region: ap-southeast-2
+    endpoint: oss-ap-southeast-2.aliyuncs.com
+    
+  - region: ap-southeast-3
+    endpoint: oss-ap-southeast-3.aliyuncs.com
+    
+  - region: ap-southeast-5
+    endpoint: oss-ap-southeast-5.aliyuncs.com
+    
+  - region: ap-northeast-1
+    endpoint: oss-ap-northeast-1.aliyuncs.com
+    
+  - region: ap-south-1
+    endpoint: oss-ap-south-1.aliyuncs.com
+    
+  - region: eu-central-1
+    endpoint: oss-eu-central-1.aliyuncs.com
+    
+  - region: eu-west-1
+    endpoint: oss-eu-west-1.aliyuncs.com
+    
+  - region: me-east-1
+    endpoint: oss-me-east-1.aliyuncs.com
+    
