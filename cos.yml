@@ -1,0 +1,63 @@
+version: v1
+metameta:
+  name: tencent-cos
+endpoints:
+  - region: ap-beijing-1
+    endpoint: cos.ap-beijing-1.myqcloud.com
+
+  - region: ap-beijing
+    endpoint: cos.ap-beijing.myqcloud.com
+
+  - region: ap-nanjing
+    endpoint: cos.ap-nanjing.myqcloud.com
+
+  - region: ap-shanghai
+    endpoint: cos.ap-shanghai.myqcloud.com
+
+  - region: ap-guangzhou
+    endpoint: cos.ap-guangzhou.myqcloud.com
+
+  - region: ap-chengdu
+    endpoint: cos.ap-chengdu.myqcloud.com
+
+  - region: ap-chongqing
+    endpoint: cos.ap-chongqing.myqcloud.com
+
+  - region: ap-shenzhen-fsi
+    endpoint: cos.ap-shenzhen-fsi.myqcloud.com
+
+  - region: ap-shanghai-fsi
+    endpoint: cos.ap-shanghai-fsi.myqcloud.com
+
+  - region: ap-beijing-fsi
+    endpoint: cos.ap-beijing-fsi.myqcloud.com
+
+  - region: ap-hongkong
+    endpoint: cos.ap-hongkong.myqcloud.com
+
+  - region: ap-singapore
+    endpoint: cos.ap-singapore.myqcloud.com
+
+  - region: ap-mumbai
+    endpoint: cos.ap-mumbai.myqcloud.com
+
+  - region: ap-bangkok
+    endpoint: cos.ap-bangkok.myqcloud.com
+    
+  - region: ap-tokyo
+    endpoint: cos.ap-tokyo.myqcloud.com
+
+  - region: na-siliconvalley
+    endpoint: cos.na-siliconvalley.myqcloud.com
+
+  - region: na-ashburn
+    endpoint: cos.na-ashburn.myqcloud.com
+
+  - region: na-toronto
+    endpoint: cos.na-toronto.myqcloud.com
+
+  - region: eu-frankfurt
+    endpoint: cos.eu-frankfurt.myqcloud.com
+    
+  - region: eu-moscow
+    endpoint: cos.eu-moscow.myqcloud.com

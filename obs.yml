@@ -1,0 +1,33 @@
+version: v1
+metameta:
+  name: huaweiyun-obs
+endpoints:
+  - region: af-south-1
+    endpoint: obs.af-south-1.myhuaweicloud.com
+
+  - region: cn-north-1
+    endpoint: obs.cn-north-1.myhuaweicloud.com
+
+  - region: cn-north-4
+    endpoint: obs.cn-north-4.myhuaweicloud.com
+
+  - region: cn-east-2
+    endpoint: obs.cn-east-2.myhuaweicloud.com
+
+  - region: cn-east-3
+    endpoint: obs.cn-east-3.myhuaweicloud.com
+
+  - region: cn-south-1
+    endpoint: obs.cn-south-1.myhuaweicloud.com
+
+  - region: cn-southwest-2
+    endpoint: obs.cn-southwest-2.myhuaweicloud.com
+
+  - region: ap-southeast-1
+    endpoint: obs.ap-southeast-1.myhuaweicloud.com
+
+  - region: ap-southeast-2
+    endpoint: obs.ap-southeast-2.myhuaweicloud.com
+
+  - region: ap-southeast-3
+    endpoint: obs.ap-southeast-3.myhuaweicloud.com

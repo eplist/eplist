@@ -1,0 +1,6 @@
+version: v1
+metameta:
+  name: netbease-nos
+endpoints:
+  - region: eastchina1
+    endpoint: nos-eastchina1.126.net	

@@ -1,0 +1,14 @@
+version: v1
+metameta:
+  name: qiniu-kodo
+endpoints:
+  - region: cn-east-1
+    endpoint: s3-cn-east-1.qiniucs.com
+  - region: cn-north-1
+    endpoint: s3-cn-north-1.qiniucs.com
+  - region: cn-south-1
+    endpoint: s3-cn-south-1.qiniucs.com
+  - region: us-north-1
+    endpoint: s3-us-north-1.qiniucs.com
+  - region: ap-southeast-1
+    endpoint: s3-ap-southeast-1.qiniucs.com

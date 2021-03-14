@@ -1,0 +1,45 @@
+version: v1
+metameta:
+  name: netbease-nos
+endpoints:
+  - region: cn-bj
+    endpoint: s3-cn-bj.ufileos.com
+
+  - region: cn-sh2
+    endpoint: s3-cn-sh2.ufileos.com
+
+  - region: cn-hk
+    endpoint: s3-hk.ufileos.com
+
+  - region: vn-sng
+    endpoint: s3-vn-sng.ufileos.com
+
+  - region: afr-nigeria
+    endpoint: s3-afr-nigeria.ufileos.com
+
+  - region: kr-seoul
+    endpoint: s3-kr-seoul.ufileos.com
+
+  - region: bra-saopaulo
+    endpoint: s3-bra-saopaulo.ufileos.com
+
+  - region: us-ca
+    endpoint: s3-us-ca.ufileos.com
+
+  - region: us-ws
+    endpoint: s3-us-ws.ufileos.com
+
+  - region: uae-dubai
+    endpoint: s3-uae-dubai.ufileos.com
+
+  - region: ge-fra
+    endpoint: s3-ge-fra.ufileos.com
+
+  - region: idn-jakarta
+    endpoint: s3-idn-jakarta.ufileos.com
+    
+  - region: ind-mumbai
+    endpoint: s3-idn-mumbai.ufileos.com
+
+  - region: sg
+    endpoint: s3-sg.ufileos.com
