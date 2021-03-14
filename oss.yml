@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: aliyun-oss
+  official-doc: https://help.aliyun.com/document_detail/31837.html
 endpoints:
   - region: cn-hangzhou
     endpoint: oss-cn-hangzhou.aliyuncs.com

@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: netbease-nos
+  official-doc: https://docs.ucloud.cn/ufile/s3/s3_introduction
 endpoints:
   - region: cn-bj
     endpoint: s3-cn-bj.ufileos.com
@@ -37,7 +38,7 @@ endpoints:
 
   - region: idn-jakarta
     endpoint: s3-idn-jakarta.ufileos.com
-    
+
   - region: ind-mumbai
     endpoint: s3-idn-mumbai.ufileos.com
 

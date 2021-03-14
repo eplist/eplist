@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: qiniu-kodo
+  official-doc: https://developer.qiniu.com/kodo/4088/s3-access-domainname
 endpoints:
   - region: cn-east-1
     endpoint: s3-cn-east-1.qiniucs.com

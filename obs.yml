@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: huaweiyun-obs
+  official-doc: https://developer.huaweicloud.com/endpoint?OBS
 endpoints:
   - region: af-south-1
     endpoint: obs.af-south-1.myhuaweicloud.com

@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: aws-s3
+  official-doc: https://docs.aws.amazon.com/general/latest/gr/s3.html
 endpoints:
   - region: us-east-1
     endpoint: s3.us-east-1.amazonaws.com
@@ -70,6 +71,6 @@ endpoints:
 
   - region: us-gov-east-1
     endpoint: s3.us-gov-east-1.amazonaws.com
-    
+
   - region: us-gov-west-1
     endpoint: s3.us-gov-west-1.amazonaws.com

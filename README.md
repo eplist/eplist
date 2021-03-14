@@ -11,13 +11,13 @@
 利用它，可以在配置云存储时快速选择需要的endpoint。
 
 ## Platforms
-- 阿里云OSS https://help.aliyun.com/document_detail/31837.html
-- 腾讯云COS https://cloud.tencent.com/document/product/436/6224
-- 七牛Kodo  https://developer.qiniu.com/kodo/4088/s3-access-domainname
-- 网易云NOS https://developer.qiniu.com/kodo/4088/s3-access-domainname
-- 华为云OBS https://developer.huaweicloud.com/endpoint?OBS
-- 亚马云S3  https://docs.aws.amazon.com/general/latest/gr/s3.html
-- 优刻得US3 https://docs.ucloud.cn/ufile/s3/s3_introduction
+- [阿里云OSS](oss.yml)
+- [腾讯云COS](cos.yml)
+- [七牛Kodo](kodo.yml)
+- [网易云NOS](nos.yml)
+- [华为云OBS](obs.yml)
+- [亚马云S3](s3.yml)
+- [优刻得US3](us3.yml)
 
 ## License
 This repo is under the MIT license. See the [LICENSE](/LICENSE) file for details.

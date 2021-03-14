@@ -1,6 +1,7 @@
 version: v1
 metameta:
   name: tencent-cos
+  official-doc: https://cloud.tencent.com/document/product/436/6224
 endpoints:
   - region: ap-beijing-1
     endpoint: cos.ap-beijing-1.myqcloud.com
@@ -58,6 +59,6 @@ endpoints:
 
   - region: eu-frankfurt
     endpoint: cos.eu-frankfurt.myqcloud.com
-    
+
   - region: eu-moscow
     endpoint: cos.eu-moscow.myqcloud.com
