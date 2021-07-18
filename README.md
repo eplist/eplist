@@ -19,5 +19,25 @@
 - [亚马云S3](s3.yml)
 - [优刻得US3](us3.yml)
 
+## Usage
+
+
+### curl
+```bash
+curl https://raw.githubusercontent.com/eplist/eplist/main/oss.yml
+```
+
+### Js-axios
+```js
+import axios from "axios";
+import yamlLoader from "js-yaml";
+
+axios.get(`https://raw.githubusercontent.com/eplist/eplist/main/oss.yml`).then((data) => {
+  let eplist = yamlLoader.load(data);
+  console.log(eplist.endpoints);
+})
+```
+
+
 ## License
 This repo is under the MIT license. See the [LICENSE](/LICENSE) file for details.
