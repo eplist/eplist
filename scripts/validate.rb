@@ -2,6 +2,7 @@
 # frozen_string_literal: true
 
 require "set"
+require "json"
 require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
@@ -18,6 +19,15 @@ end
 
 def string_value?(value)
   value.is_a?(String) && !value.strip.empty?
+end
+
+def badge_payload(label, message)
+  {
+    "schemaVersion" => 1,
+    "label" => label,
+    "message" => message.to_s,
+    "color" => "blue"
+  }
 end
 
 Dir.chdir(ROOT) do
@@ -153,6 +163,41 @@ Dir.chdir(ROOT) do
       else
         endpoints[endpoint] = label
       end
+    end
+  end
+
+  if File.file?("README.md")
+    readme = File.read("README.md")
+
+    if readme.include?("img.shields.io/badge/providers-") || readme.include?("img.shields.io/badge/endpoints-")
+      errors << "README.md: provider and endpoint badges must use Shields endpoint JSON, not hardcoded counts"
+    end
+
+    unless readme.include?("https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/eplist/eplist/main/badges/providers.json")
+      errors << "README.md: missing providers endpoint badge"
+    end
+
+    unless readme.include?("https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/eplist/eplist/main/badges/endpoints.json")
+      errors << "README.md: missing endpoints endpoint badge"
+    end
+  end
+
+  if index&.fetch("providers", nil).is_a?(Array)
+    expected_badges = {
+      "badges/providers.json" => badge_payload("providers", index["providers"].size),
+      "badges/endpoints.json" => badge_payload("endpoints", endpoints.size)
+    }
+
+    expected_badges.each do |file, expected|
+      unless File.file?(file)
+        errors << "#{file}: missing generated badge file"
+        next
+      end
+
+      actual = JSON.parse(File.read(file))
+      errors << "#{file}: run ruby scripts/update_badges.rb" unless actual == expected
+    rescue JSON::ParserError => e
+      errors << "#{file}: invalid JSON: #{e.message}"
     end
   end
 end
