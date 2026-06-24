@@ -3,7 +3,6 @@
 [![Validate](https://github.com/eplist/eplist/actions/workflows/validate.yml/badge.svg)](https://github.com/eplist/eplist/actions/workflows/validate.yml)
 [![Providers](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/eplist/eplist/main/badges/providers.json)](index.yml)
 [![Endpoints](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/eplist/eplist/main/badges/endpoints.json)](index.yml)
-[![visits](https://visitor.vercel.app/page/eplist-eplist?color=light-green)](https://github.com/eplist/eplist)
 [![License](https://img.shields.io/github/license/eplist/eplist.svg)](https://github.com/eplist/eplist/blob/master/LICENSE)
 
 ## Introduction
