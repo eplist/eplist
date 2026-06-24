@@ -1,0 +1,7 @@
+version: v1
+metameta:
+  name: google-cloud-storage
+  official-doc: https://docs.cloud.google.com/storage/docs/interoperability
+endpoints:
+  - region: global
+    endpoint: storage.googleapis.com

@@ -1,0 +1,52 @@
+version: v1
+metameta:
+  name: ibm-cloud-object-storage
+  official-doc: https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-endpoints
+endpoints:
+  - region: us
+    endpoint: s3.us.cloud-object-storage.appdomain.cloud
+
+  - region: eu
+    endpoint: s3.eu.cloud-object-storage.appdomain.cloud
+
+  - region: ap
+    endpoint: s3.ap.cloud-object-storage.appdomain.cloud
+
+  - region: us-south
+    endpoint: s3.us-south.cloud-object-storage.appdomain.cloud
+
+  - region: us-east
+    endpoint: s3.us-east.cloud-object-storage.appdomain.cloud
+
+  - region: eu-gb
+    endpoint: s3.eu-gb.cloud-object-storage.appdomain.cloud
+
+  - region: eu-de
+    endpoint: s3.eu-de.cloud-object-storage.appdomain.cloud
+
+  - region: au-syd
+    endpoint: s3.au-syd.cloud-object-storage.appdomain.cloud
+
+  - region: jp-tok
+    endpoint: s3.jp-tok.cloud-object-storage.appdomain.cloud
+
+  - region: jp-osa
+    endpoint: s3.jp-osa.cloud-object-storage.appdomain.cloud
+
+  - region: ca-tor
+    endpoint: s3.ca-tor.cloud-object-storage.appdomain.cloud
+
+  - region: br-sao
+    endpoint: s3.br-sao.cloud-object-storage.appdomain.cloud
+
+  - region: eu-es
+    endpoint: s3.eu-es.cloud-object-storage.appdomain.cloud
+
+  - region: ca-mon
+    endpoint: s3.ca-mon.cloud-object-storage.appdomain.cloud
+
+  - region: in-che
+    endpoint: s3.in-che.cloud-object-storage.appdomain.cloud
+
+  - region: in-mum
+    endpoint: s3.in-mum.cloud-object-storage.appdomain.cloud

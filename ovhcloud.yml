@@ -1,0 +1,43 @@
+version: v1
+metameta:
+  name: ovhcloud-object-storage
+  official-doc: https://docs.ovhcloud.com/en/guides/storage-and-backup/object-storage/s3-location
+endpoints:
+  - region: gra
+    endpoint: s3.gra.io.cloud.ovh.net
+
+  - region: rbx
+    endpoint: s3.rbx.io.cloud.ovh.net
+
+  - region: sbg
+    endpoint: s3.sbg.io.cloud.ovh.net
+
+  - region: eu-west-par
+    endpoint: s3.eu-west-par.io.cloud.ovh.net
+
+  - region: eu-south-mil
+    endpoint: s3.eu-south-mil.io.cloud.ovh.net
+
+  - region: de
+    endpoint: s3.de.io.cloud.ovh.net
+
+  - region: uk
+    endpoint: s3.uk.io.cloud.ovh.net
+
+  - region: waw
+    endpoint: s3.waw.io.cloud.ovh.net
+
+  - region: bhs
+    endpoint: s3.bhs.io.cloud.ovh.net
+
+  - region: ca-east-tor
+    endpoint: s3.ca-east-tor.io.cloud.ovh.net
+
+  - region: sgp
+    endpoint: s3.sgp.io.cloud.ovh.net
+
+  - region: ap-southeast-syd
+    endpoint: s3.ap-southeast-syd.io.cloud.ovh.net
+
+  - region: ap-south-mum
+    endpoint: s3.ap-south-mum.io.cloud.ovh.net

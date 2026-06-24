@@ -1,0 +1,19 @@
+version: v1
+metameta:
+  name: gcore-object-storage
+  official-doc: https://gcore.com/docs/storage/manage-object-storage/s3-service-urls-and-default-region-names
+endpoints:
+  - region: s-ndp1-2
+    endpoint: sines-2.storage.gcore.dev
+
+  - region: s-ndp1-3
+    endpoint: sines-3.storage.gcore.dev
+
+  - region: s-ndlo-2
+    endpoint: london-2.storage.gcore.dev
+
+  - region: s-ed1
+    endpoint: luxembourg-2.storage.gcore.dev
+
+  - region: s-drc2
+    endpoint: chicago-1.storage.gcore.dev

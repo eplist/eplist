@@ -1,0 +1,7 @@
+version: v1
+metameta:
+  name: storj
+  official-doc: https://storj.dev/dcs/api/s3/s3-compatible-gateway
+endpoints:
+  - region: global
+    endpoint: gateway.storjshare.io

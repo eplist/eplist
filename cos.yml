@@ -1,7 +1,7 @@
 version: v1
 metameta:
   name: tencent-cos
-  official-doc: https://cloud.tencent.com/document/product/436/6224
+  official-doc: https://www.tencentcloud.com/document/product/436/6224
 endpoints:
   - region: ap-beijing-1
     endpoint: cos.ap-beijing-1.myqcloud.com
@@ -39,14 +39,20 @@ endpoints:
   - region: ap-singapore
     endpoint: cos.ap-singapore.myqcloud.com
 
-  - region: ap-mumbai
-    endpoint: cos.ap-mumbai.myqcloud.com
+  - region: ap-jakarta
+    endpoint: cos.ap-jakarta.myqcloud.com
+
+  - region: ap-seoul
+    endpoint: cos.ap-seoul.myqcloud.com
 
   - region: ap-bangkok
     endpoint: cos.ap-bangkok.myqcloud.com
-    
+
   - region: ap-tokyo
     endpoint: cos.ap-tokyo.myqcloud.com
+
+  - region: me-saudi-arabia
+    endpoint: cos.me-saudi-arabia.myqcloud.com
 
   - region: na-siliconvalley
     endpoint: cos.na-siliconvalley.myqcloud.com
@@ -54,11 +60,8 @@ endpoints:
   - region: na-ashburn
     endpoint: cos.na-ashburn.myqcloud.com
 
-  - region: na-toronto
-    endpoint: cos.na-toronto.myqcloud.com
+  - region: sa-saopaulo
+    endpoint: cos.sa-saopaulo.myqcloud.com
 
   - region: eu-frankfurt
     endpoint: cos.eu-frankfurt.myqcloud.com
-
-  - region: eu-moscow
-    endpoint: cos.eu-moscow.myqcloud.com

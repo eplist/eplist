@@ -1,0 +1,13 @@
+version: v1
+metameta:
+  name: hetzner-object-storage
+  official-doc: https://docs.hetzner.com/storage/object-storage/overview/
+endpoints:
+  - region: fsn1
+    endpoint: fsn1.your-objectstorage.com
+
+  - region: nbg1
+    endpoint: nbg1.your-objectstorage.com
+
+  - region: hel1
+    endpoint: hel1.your-objectstorage.com

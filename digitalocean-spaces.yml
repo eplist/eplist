@@ -1,0 +1,28 @@
+version: v1
+metameta:
+  name: digitalocean-spaces
+  official-doc: https://docs.digitalocean.com/reference/api/spaces/
+endpoints:
+  - region: nyc3
+    endpoint: nyc3.digitaloceanspaces.com
+
+  - region: sfo3
+    endpoint: sfo3.digitaloceanspaces.com
+
+  - region: ams3
+    endpoint: ams3.digitaloceanspaces.com
+
+  - region: sgp1
+    endpoint: sgp1.digitaloceanspaces.com
+
+  - region: fra1
+    endpoint: fra1.digitaloceanspaces.com
+
+  - region: tor1
+    endpoint: tor1.digitaloceanspaces.com
+
+  - region: blr1
+    endpoint: blr1.digitaloceanspaces.com
+
+  - region: syd1
+    endpoint: syd1.digitaloceanspaces.com

@@ -1,7 +1,7 @@
 version: v1
 metameta:
-  name: netbease-nos
-  official-doc: https://developer.qiniu.com/kodo/4088/s3-access-domainname
+  name: netease-nos
+  official-doc: https://www.163yun.com/product/nos
 endpoints:
   - region: eastchina1
     endpoint: nos-eastchina1.126.net

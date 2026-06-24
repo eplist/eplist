@@ -1,0 +1,10 @@
+version: v1
+metameta:
+  name: tigris
+  official-doc: https://www.tigrisdata.com/docs/concepts/regions/
+endpoints:
+  - region: auto
+    endpoint: t3.storage.dev
+
+  - region: fly
+    endpoint: fly.storage.tigris.dev

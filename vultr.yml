@@ -1,0 +1,16 @@
+version: v1
+metameta:
+  name: vultr-object-storage
+  official-doc: https://docs.vultr.com/how-to-use-s3cmd-with-vultr-object-storage
+endpoints:
+  - region: ams1
+    endpoint: ams1.vultrobjects.com
+
+  - region: ewr1
+    endpoint: ewr1.vultrobjects.com
+
+  - region: sjc1
+    endpoint: sjc1.vultrobjects.com
+
+  - region: sgp1
+    endpoint: sgp1.vultrobjects.com

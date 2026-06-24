@@ -1,0 +1,16 @@
+version: v1
+metameta:
+  name: scaleway-object-storage
+  official-doc: https://www.scaleway.com/en/docs/object-storage/api-cli/object-storage-aws-cli/
+endpoints:
+  - region: fr-par
+    endpoint: s3.fr-par.scw.cloud
+
+  - region: nl-ams
+    endpoint: s3.nl-ams.scw.cloud
+
+  - region: pl-waw
+    endpoint: s3.pl-waw.scw.cloud
+
+  - region: it-mil
+    endpoint: s3.it-mil.scw.cloud

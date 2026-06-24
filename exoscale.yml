@@ -1,0 +1,25 @@
+version: v1
+metameta:
+  name: exoscale-sos
+  official-doc: https://community.exoscale.com/product/storage/object-storage/quick-start/
+endpoints:
+  - region: at-vie-1
+    endpoint: sos-at-vie-1.exo.io
+
+  - region: at-vie-2
+    endpoint: sos-at-vie-2.exo.io
+
+  - region: bg-sof-1
+    endpoint: sos-bg-sof-1.exo.io
+
+  - region: ch-dk-2
+    endpoint: sos-ch-dk-2.exo.io
+
+  - region: ch-gva-2
+    endpoint: sos-ch-gva-2.exo.io
+
+  - region: de-fra-1
+    endpoint: sos-de-fra-1.exo.io
+
+  - region: de-muc-1
+    endpoint: sos-de-muc-1.exo.io

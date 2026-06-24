@@ -1,0 +1,7 @@
+version: v1
+metameta:
+  name: dreamobjects
+  official-doc: https://help.dreamhost.com/hc/en-us/articles/360022654971-AWS-CLI-commands-to-manage-your-DreamObjects-data
+endpoints:
+  - region: us-east-005
+    endpoint: s3.us-east-005.dream.io

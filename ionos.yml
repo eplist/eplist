@@ -1,0 +1,22 @@
+version: v1
+metameta:
+  name: ionos-object-storage
+  official-doc: https://docs.ionos.com/cloud/backup-and-storage/ionos-object-storage/endpoints
+endpoints:
+  - region: eu-central-4
+    endpoint: s3.eu-central-4.ionoscloud.com
+
+  - region: eu-central-3
+    endpoint: s3.eu-central-3.ionoscloud.com
+
+  - region: us-central-1
+    endpoint: s3.us-central-1.ionoscloud.com
+
+  - region: eu-central-1
+    endpoint: s3.eu-central-1.ionoscloud.com
+
+  - region: eu-central-2
+    endpoint: s3.eu-central-2.ionoscloud.com
+
+  - region: eu-south-2
+    endpoint: s3.eu-south-2.ionoscloud.com

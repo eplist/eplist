@@ -1,13 +1,16 @@
 version: v1
 metameta:
   name: aliyun-oss
-  official-doc: https://help.aliyun.com/document_detail/31837.html
+  official-doc: https://www.alibabacloud.com/help/en/oss/user-guide/regions-and-endpoints
 endpoints:
   - region: cn-hangzhou
     endpoint: oss-cn-hangzhou.aliyuncs.com
 
   - region: cn-shanghai
     endpoint: oss-cn-shanghai.aliyuncs.com
+
+  - region: cn-nanjing
+    endpoint: oss-cn-nanjing.aliyuncs.com
 
   - region: cn-qingdao
     endpoint: oss-cn-qingdao.aliyuncs.com
@@ -23,52 +26,63 @@ endpoints:
 
   - region: cn-wulanchabu
     endpoint: oss-cn-wulanchabu.aliyuncs.com
-    
+
   - region: cn-shenzhen
     endpoint: oss-cn-shenzhen.aliyuncs.com
-    
+
   - region: cn-heyuan
     endpoint: oss-cn-heyuan.aliyuncs.com
-    
+
   - region: cn-guangzhou
     endpoint: oss-cn-guangzhou.aliyuncs.com
-    
+
   - region: cn-chengdu
     endpoint: oss-cn-chengdu.aliyuncs.com
-    
+
+  - region: cn-zhongwei
+    endpoint: oss-cn-zhongwei.aliyuncs.com
+
   - region: cn-hongkong
     endpoint: oss-cn-hongkong.aliyuncs.com
-    
-  - region: us-west-1
-    endpoint: oss-us-west-1.aliyuncs.com
-    
-  - region: us-east-1
-    endpoint: oss-us-east-1.aliyuncs.com
-    
-  - region: ap-southeast-1
-    endpoint: oss-ap-southeast-1.aliyuncs.com
-    
-  - region: ap-southeast-2
-    endpoint: oss-ap-southeast-2.aliyuncs.com
-    
-  - region: ap-southeast-3
-    endpoint: oss-ap-southeast-3.aliyuncs.com
-    
-  - region: ap-southeast-5
-    endpoint: oss-ap-southeast-5.aliyuncs.com
-    
+
   - region: ap-northeast-1
     endpoint: oss-ap-northeast-1.aliyuncs.com
-    
-  - region: ap-south-1
-    endpoint: oss-ap-south-1.aliyuncs.com
-    
+
+  - region: ap-northeast-2
+    endpoint: oss-ap-northeast-2.aliyuncs.com
+
+  - region: ap-southeast-1
+    endpoint: oss-ap-southeast-1.aliyuncs.com
+
+  - region: ap-southeast-3
+    endpoint: oss-ap-southeast-3.aliyuncs.com
+
+  - region: ap-southeast-5
+    endpoint: oss-ap-southeast-5.aliyuncs.com
+
+  - region: ap-southeast-6
+    endpoint: oss-ap-southeast-6.aliyuncs.com
+
+  - region: ap-southeast-7
+    endpoint: oss-ap-southeast-7.aliyuncs.com
+
   - region: eu-central-1
     endpoint: oss-eu-central-1.aliyuncs.com
-    
+
   - region: eu-west-1
     endpoint: oss-eu-west-1.aliyuncs.com
-    
+
+  - region: us-west-1
+    endpoint: oss-us-west-1.aliyuncs.com
+
+  - region: us-east-1
+    endpoint: oss-us-east-1.aliyuncs.com
+
+  - region: na-south-1
+    endpoint: oss-na-south-1.aliyuncs.com
+
   - region: me-east-1
     endpoint: oss-me-east-1.aliyuncs.com
-    
+
+  - region: me-central-1
+    endpoint: oss-me-central-1.aliyuncs.com

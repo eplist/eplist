@@ -1,0 +1,10 @@
+version: v1
+metameta:
+  name: yandex-object-storage
+  official-doc: https://yandex.cloud/en/docs/storage/s3/
+endpoints:
+  - region: ru-central1
+    endpoint: storage.yandexcloud.net
+
+  - region: ru-central1
+    endpoint: s3.yandexcloud.net

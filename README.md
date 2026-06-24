@@ -11,13 +11,29 @@
 利用它，可以在配置云存储时快速选择需要的endpoint。
 
 ## Platforms
+- [Akamai Object Storage](akamai.yml)
 - [阿里云OSS](oss.yml)
 - [腾讯云COS](cos.yml)
+- [DigitalOcean Spaces](digitalocean-spaces.yml)
+- [DreamObjects](dreamobjects.yml)
+- [Exoscale SOS](exoscale.yml)
+- [Gcore Object Storage](gcore.yml)
+- [Google Cloud Storage](google-cloud-storage.yml)
+- [Hetzner Object Storage](hetzner.yml)
+- [IBM Cloud Object Storage](ibm-cos.yml)
+- [IONOS Object Storage](ionos.yml)
+- [OVHcloud Object Storage](ovhcloud.yml)
+- [Scaleway Object Storage](scaleway.yml)
+- [Storj](storj.yml)
+- [Tigris](tigris.yml)
 - [七牛Kodo](kodo.yml)
 - [网易云NOS](nos.yml)
 - [华为云OBS](obs.yml)
 - [亚马云S3](s3.yml)
 - [优刻得US3](us3.yml)
+- [Vultr Object Storage](vultr.yml)
+- [Wasabi](wasabi.yml)
+- [Yandex Object Storage](yandex.yml)
 
 ## Usage
 
