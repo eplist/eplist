@@ -1,0 +1,93 @@
+version: v1
+providers:
+  - slug: akamai-object-storage
+    display-name: Akamai Object Storage
+    file: akamai.yml
+
+  - slug: aliyun-oss
+    display-name: 阿里云OSS
+    file: oss.yml
+
+  - slug: tencent-cos
+    display-name: 腾讯云COS
+    file: cos.yml
+
+  - slug: digitalocean-spaces
+    display-name: DigitalOcean Spaces
+    file: digitalocean-spaces.yml
+
+  - slug: dreamobjects
+    display-name: DreamObjects
+    file: dreamobjects.yml
+
+  - slug: exoscale-sos
+    display-name: Exoscale SOS
+    file: exoscale.yml
+
+  - slug: gcore-object-storage
+    display-name: Gcore Object Storage
+    file: gcore.yml
+
+  - slug: google-cloud-storage
+    display-name: Google Cloud Storage
+    file: google-cloud-storage.yml
+
+  - slug: hetzner-object-storage
+    display-name: Hetzner Object Storage
+    file: hetzner.yml
+
+  - slug: ibm-cloud-object-storage
+    display-name: IBM Cloud Object Storage
+    file: ibm-cos.yml
+
+  - slug: ionos-object-storage
+    display-name: IONOS Object Storage
+    file: ionos.yml
+
+  - slug: qiniu-kodo
+    display-name: 七牛Kodo
+    file: kodo.yml
+
+  - slug: netease-nos
+    display-name: 网易云NOS
+    file: nos.yml
+
+  - slug: huaweicloud-obs
+    display-name: 华为云OBS
+    file: obs.yml
+
+  - slug: ovhcloud-object-storage
+    display-name: OVHcloud Object Storage
+    file: ovhcloud.yml
+
+  - slug: aws-s3
+    display-name: Amazon S3
+    file: s3.yml
+
+  - slug: scaleway-object-storage
+    display-name: Scaleway Object Storage
+    file: scaleway.yml
+
+  - slug: storj
+    display-name: Storj
+    file: storj.yml
+
+  - slug: tigris
+    display-name: Tigris
+    file: tigris.yml
+
+  - slug: ucloud-us3
+    display-name: 优刻得US3
+    file: us3.yml
+
+  - slug: vultr-object-storage
+    display-name: Vultr Object Storage
+    file: vultr.yml
+
+  - slug: wasabi
+    display-name: Wasabi
+    file: wasabi.yml
+
+  - slug: yandex-object-storage
+    display-name: Yandex Object Storage
+    file: yandex.yml

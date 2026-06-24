@@ -1,6 +1,7 @@
 # eplist
 
 [![Contributors](https://img.shields.io/github/contributors/eplist/eplist.svg)](https://github.com/badges/eplist/eplist/contributors)
+[![Validate](https://github.com/eplist/eplist/actions/workflows/validate.yml/badge.svg)](https://github.com/eplist/eplist/actions/workflows/validate.yml)
 [![visits](https://visitor.vercel.app/page/eplist-eplist?color=light-green)](https://github.com/eplist/eplist)
 [![License](https://img.shields.io/github/license/eplist/eplist.svg)](https://github.com/eplist/eplist/blob/master/LICENSE)
 
@@ -40,6 +41,7 @@
 
 ### curl
 ```bash
+curl https://raw.githubusercontent.com/eplist/eplist/main/index.yml
 curl https://raw.githubusercontent.com/eplist/eplist/main/oss.yml
 ```
 
@@ -52,6 +54,12 @@ axios.get(`https://raw.githubusercontent.com/eplist/eplist/main/oss.yml`).then((
   let eplist = yamlLoader.load(data);
   console.log(eplist.endpoints);
 })
+```
+
+## Validation
+
+```bash
+ruby scripts/validate.rb
 ```
 
 
